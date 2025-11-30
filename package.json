@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-hinglish-bot",
+  "version": "1.0.0",
+  "description": "A natural Hinglish WhatsApp bot with conversation analysis",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "pm2": "pm2 start ecosystem.config.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0",
+    "@openrouter/sdk": "^1.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["whatsapp", "bot", "hinglish", "ai", "chatbot"],
+  "author": "Your Name",
+  "license": "MIT"
+}
